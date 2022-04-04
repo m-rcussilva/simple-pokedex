@@ -1,0 +1,38 @@
+.pokemon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon-logo {
+    height: 400px;
+}
+
+@media screen and (max-width: 545px) {
+    .pokemon-logo {
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .pokemon-logo {
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .pokemon-logo {
+        height: 240px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .pokemon-logo {
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 285px) {
+    .pokemon-logo {
+        height: 160px;
+    }
+}

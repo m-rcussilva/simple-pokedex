@@ -1,0 +1,58 @@
+.pokedex-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    padding: 4em;
+    gap: 35px;
+}
+
+@media screen and (max-width: 448px) {
+    .pokedex-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.pokedex-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.pokedex-title {
+    background-color: #e13f44;
+    color: #fff;
+    border: 2px solid #313131;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    padding: 0.2em 0.8em;
+    font-size: 26px;
+}
+
+@media screen and (max-width: 545px) {
+    .pokedex-title {
+        padding: 0.2em 0.8em;
+        font-size: 18px;
+    }
+}
+
+.pokedex-para {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 0.2em 0.8em;
+}
+
+.the-winner {
+    border: 2px solid #198d68;
+    border-radius: 12px;
+    color: #198d68;
+    padding: 0.2em 0.8em;
+}
+
+.the-loser {
+    border: 2px solid #e24b4b;
+    color: #e24b4b;
+    border-radius: 12px;
+    padding: 0.2em 0.8em;
+}
